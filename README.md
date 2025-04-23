@@ -76,10 +76,10 @@ pip install numpy pandas scikit-learn matplotlib
 
    # Example input (adjust based on your preprocessed data)
    sample_data = pd.DataFrame({
-       'Pclass': [0.5],  # Normalized value
+       'Pclass': [2],  # Normalized value
        'Sex': ['male'],
-       'Age': [0.452723],  # Normalized value
-       'Fare': [0.015282]  # Normalized value
+       'Age': [34],  # Normalized value
+       'Fare': [15.0]  # Normalized value
    })
 
    # Preprocess sample_data (encode 'Sex', etc., as done in the notebook)
